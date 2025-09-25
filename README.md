@@ -15,6 +15,20 @@ Right now it can solve math via the **calculator tool**. Later, we’ll add head
    source .venv/bin/activate
 
 3. Install deps:
-pip install "strands-agents[openai]" strands-agents-tools python-dotenv sounddevice soundfile
+   ```bash
+   pip install "strands-agents[openai]" strands-agents-tools python-dotenv sounddevice soundfile
 
-4. Create .env with your key
+5. Create .env with your key
+
+6. Run the voice agent:
+   ```bash
+   source .venv/bin/activate
+   python src/voice_openai_ptt.py
+
+7. Usage:
+
+Press ENTER → speak your query (e.g. “what’s 47 times 19”).
+
+Agent replies in text and speaks back using macOS afplay.
+
+Type q or quit to exit.
