@@ -1,0 +1,11 @@
+strands-agents[openai]
+strands-agents-tools
+python-dotenv
+sounddevice
+soundfile
+langchain
+langchain-openai
+langchain-community
+faiss-cpu
+tiktoken
+numpy
