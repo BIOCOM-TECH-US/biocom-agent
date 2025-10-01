@@ -9,3 +9,5 @@ langchain-community
 faiss-cpu
 tiktoken
 numpy
+requests
+beautifulsoup4
